@@ -1,1 +1,19 @@
-[{"title":"Test Title","text":"Test text", "id": "test_id"}]
+{
+  "bd": [
+    {
+      "title": "Test Title",
+      "text": "Test text",
+      "id": "test_id"
+    },
+    {
+      "title": "fdsfdsf",
+      "text": "dsfs",
+      "id": "1"
+    },
+    {
+      "title": "fdsfdsf",
+      "text": "dsfs",
+      "id": "2"
+    }
+  ]
+}
