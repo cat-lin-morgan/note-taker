@@ -35,7 +35,7 @@ You should also have Node installed to your machine and the Express npm.
 
 ## Usage
 
-Here is a link to the deployed [Heroku](https://hidden-brook-85239.herokuapp.com/"Heroku").
+Here is a link to the deployed [Heroku](https://hidden-brook-85239.herokuapp.com/ "Heroku").
 
 ## Credits
 
