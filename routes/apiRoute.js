@@ -15,6 +15,7 @@ router.post('/notes', (req, res) => {
     res.json(newNote);
 });
 
+//this will delete them from the server and should update the json file
 router.delete('/notes/:id', (req, res) => {
     const newNotes = deleteOldNote(req.params.id, notes);
     res.json(newNotes);

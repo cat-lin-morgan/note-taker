@@ -5,7 +5,6 @@ const apiRoute = require('./routes/apiRoute');
 const htmlRoute = require('./routes/htmlRoute');
 
 
-//app.use is middleware
 //parse incoming string or array data
 app.use(express.urlencoded({ extended: true }));//this tells it to parse the data as deeply as it can
 //parse incoming json data
