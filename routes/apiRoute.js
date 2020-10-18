@@ -10,8 +10,6 @@ router.get('/notes', (req, res) => {
 //this will save the notes to the server
 router.post('/notes', (req, res) => {
     const newNote = createNewNote( req.body, notes );
-    console.log(newNote);
-    notes.push(newNote);
     res.json(newNote);
 });
 
