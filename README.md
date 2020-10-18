@@ -6,7 +6,7 @@ ___
 
 This was a project to write backend code using Express.js. We used the GET, POST, DELETE, USE, and ROUTER that Express.js supplies us with. As well as the fs Module that Node supplies us with.
 
-**Extra:** I decided to try the delete notes bonus, it was hard, but I think I figured it out ok.  It was a ```router.delete``` and some tricky logic that exists in my lib/notes.js, along with the POST logic. 
+**Extra:** I decided to try the delete notes bonus, it was hard, but I think I figured it out ok.  It was a ```router.delete``` in my ```apiRoute.js``` and some tricky logic that exists in my lib/notes.js, along with the POST logic. 
 
 **Other:** For the unique id I went with the npm [UUID](https://www.npmjs.com/package/uuid "Unique ID npm").
 
@@ -50,9 +50,9 @@ If you find issues open up an issues on the original repo! Fix it or add to it, 
 
 If you'd like to ask further questions you can reach me via [GitHub](https://github.com/cat-lin-morgan/) or email me at plummorgan@gmail.com!
 
-
 ## Screenshot
-<img src='./assets/images/readmescreenshot.png' alt='Screenshot of the application in use.'/>
+
+<img src='notakerscreenshot.png' alt='Screenshot of the application in use.'/>
 
 
 ___Thank you___
