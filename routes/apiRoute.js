@@ -1,6 +1,6 @@
 const router = require('express').Router();
-const notes = require('../db/db.json');
-const createNewNote = require('../lib/notes');
+let notes = require('../db/db.json');
+const { createNewNote, deleteOldNote } = require('../lib/notes');
 
 //this will return the notes from db.json
 router.get('/notes', (req, res) => {
@@ -9,11 +9,16 @@ router.get('/notes', (req, res) => {
 
 //this will save the notes to the server
 router.post('/notes', (req, res) => {
-    //setting the id
     const newNote = createNewNote( req.body, notes );
     console.log(newNote);
+    notes.push(newNote);
+    res.json(newNote);
+});
 
-    
+router.delete('/notes/:id', (req, res) => {
+    const newNotes = deleteOldNote(req.params.id, notes);
+    res.json(newNotes);
+    notes = newNotes;
 });
 
 module.exports = router;

@@ -1,19 +1,12 @@
-{
-  "bd": [
-    {
-      "title": "Test Title",
-      "text": "Test text",
-      "id": "test_id"
-    },
-    {
-      "title": "fdsfdsf",
-      "text": "dsfs",
-      "id": "1"
-    },
-    {
-      "title": "fdsfdsf",
-      "text": "dsfs",
-      "id": "2"
-    }
-  ]
-}
+[
+  {
+    "title": "heyyyyyyyyy",
+    "text": "listen",
+    "id": "36e67c6b-a6f1-4e7b-8d06-286063a73400"
+  },
+  {
+    "title": "heyyyy",
+    "text": "let's see",
+    "id": "f96cebc5-6401-4513-92d7-806392b472bf"
+  }
+]
