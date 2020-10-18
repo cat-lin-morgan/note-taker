@@ -4,15 +4,16 @@ ___
 
 ## Description
 
-This was a project to write backend code using Express.js. We used the GET, POST, DELETE, USE, and ROUTER that Express.js supplies us with. As well as the fs Module that Node supplies us with
+This was a project to write backend code using Express.js. We used the GET, POST, DELETE, USE, and ROUTER that Express.js supplies us with. As well as the fs Module that Node supplies us with.
 
-**Extra:** I decided to try 
+**Extra:** I decided to try the delete notes bonus, it was hard, but I think I figured it out ok.  It was a ```router.delete``` and some tricky logic that exists in my lib/notes.js, along with the POST logic. 
 
-**Other:** 
+**Other:** For the unique id I went with the npm [UUID](https://www.npmjs.com/package/uuid "Unique ID npm").
 
 
 ![javascript badge](https://img.shields.io/badge/We%20Stan-Javascript-brightgreen)
-
+![node badge](https://img.shields.io/badge/Node-Over%20Here-blueviolet)
+![express badge](https://img.shields.io/badge/Express.js-On%20This%20Machine-orange)
 
 ## Table of Contents 
 
@@ -30,44 +31,28 @@ This was a project to write backend code using Express.js. We used the GET, POST
 
 First star it. 
 Then you could either fork it or download a zip file of it.
-You should also have Node installed to your machine and the Inquirer npm.
+You should also have Node installed to your machine and the Express npm.
 
 ## Usage
 
-Once you have the above all done, you can open up the folder in your code editor of choice, mine is VS Code, and then summon node in your terminal followed immediately by index, like such :
-
-``` node index```
-
-Then follow the question prompt.
-
-And there you go, a markdown file, created just for you!
+Here is a link to the deployed [Heroku](https://hidden-brook-85239.herokuapp.com/"Heroku").
 
 ## Credits
 
-The TAs, and my boyfriend who answered questions I had about arrow functions! 
+Leticia, a TA from my cohort helped me get started!
 
 
 ## How You Can Contribute
 
-If you find issues open up an issues on the original repo!
-
-## How You Can Test My Application
-
-BREAK IT, I dare you.
+If you find issues open up an issues on the original repo! Fix it or add to it, then make a pull request.
 
 ## How You Can Reach Me
 
 If you'd like to ask further questions you can reach me via [GitHub](https://github.com/cat-lin-morgan/) or email me at plummorgan@gmail.com!
 
-## Video Walk-Thru and Screenshot
 
-#### Video Walk-thru
-
-[Click here to view my walk-thru of the README generator.](https://drive.google.com/file/d/15rRuavutwF-W-ujjjMWMEkmaiwdeEWRs/view?usp=sharing "README Generator")
-
-
-#### Screenshot
-<img src='./assets/images/readmescreenshot.png' alt='Screenshot of the generated README, active on Github.'/>
+## Screenshot
+<img src='./assets/images/readmescreenshot.png' alt='Screenshot of the application in use.'/>
 
 
 ___Thank you___
